@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(178, 21, 37);
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out-cont{
+    width: 375px;
+    height: 175px;
+    background-color: rgb(222, 226, 226);
+    border-radius: 5px;
+}
+
+.in-cont{
+    width: 320px;
+    height: 120px;
+    background-color: rgb(36, 35, 35)4, 43, 43;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(8px);
+    display:grid
+    /* grid-template-columns: 32% 32% 36% */
+}
+
+.cruz-cont{
+    background-color: rgb(4, 140, 168);
+}
+
+.centro-cont{
+    background-color: rgb(10, 123, 25);
+
+}
+
+.button-cont{
+    background-color: rgb(253, 221, 11);
+
+}
