@@ -12,10 +12,12 @@ body{
     width: 900px;
     height: 400px;
     background-color: rgb(222, 226, 226);
-    border-radius: 5px;
+    border-radius: 10px;
+    border: outset;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-bottom: 20%; */
 }
 
 .in-cont{
@@ -24,12 +26,13 @@ body{
     color: red;
     background-image: url(../img/textura-rugos-2-peque.jpg);
     /* background-color: rgb(36, 35, 35); */
-    border-radius: 3px;
+    border-radius: 5px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     transform: translateX(8px);
     grid-template-columns: 32% 32% 36%
+    /* margin-bottom: 20%; */
 }
 
 .cruz-cont{
@@ -77,42 +80,71 @@ body{
 }
 
 .medio{
-    background-color: aliceblue;
+    background-color: rgb(189, 191, 193);
     width: 200px;
     height: 50px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 0;
     padding-bottom: 0;
     border-radius: 10px;
     margin-bottom: 5px;
+    /* justify-content: space-between; */
 }
 
 #centro-top{
     border-radius: 0px 0px 10px 10px ;
+    margin-bottom: 25px;
+}
+
+#centro-2{
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+#centro-letras{
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+#centro-botones{
+    border: inset;
+    width: 194px;
+    height: 60px;
+    margin-bottom: 25px;
+    background-color: rgb(240, 246, 251);
+    justify-content: space-between 5%;
+}
+
+
+#boton-dc{
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    justify-content: space-between 10%;
+}
+
+#boton-iz{
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: space-between 10%;
 }
 
 #centro-bajo{
     border-radius: 10px 10px 0px 0px;
+    height: 25px;
+    margin-bottom: 25px;
 }
 
-.centro-2{
-    /* background-color: aliceblue;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px; */
-}
-
-.centro-option{
-    /* background-color: aliceblue;
-    width: 200px;
-    height: 50px; */
-}
-
-.centro-botones{
-    /* background-color: aliceblue;
-    width: 200px;
-    height: 50px; */
-
-}
 
 
