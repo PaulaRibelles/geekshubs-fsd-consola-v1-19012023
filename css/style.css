@@ -44,9 +44,8 @@ body{
 .centro-cont{
     width: 200px;
     height: 320px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    /* padding-bottom: 20px; */
+    /* padding-top: 0px; */
+    /* padding-bottom: 0px; */
     /* background-color: rgb(10, 123, 25); */
     /* display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
