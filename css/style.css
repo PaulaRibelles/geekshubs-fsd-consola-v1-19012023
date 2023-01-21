@@ -21,18 +21,17 @@ body{
 }
 
 .in-cont{
+    /* background-color: rgb(36, 35, 35); */
     width: 800px;
     height: 320px;
     color: red;
     background-image: url(../img/textura-rugos-2-peque.jpg);
-    /* background-color: rgb(36, 35, 35); */
     border-radius: 5px;
     display: flex;
+    /* transform: translateX(8px); */
     /* justify-content: center;
     align-items: center; */
-    transform: translateX(8px);
-    grid-template-columns: 32% 32% 36%
-    /* margin-bottom: 20%; */
+    /* grid-template-columns: 32% 32% 36% */
 }
 
 .cruz-cont{
@@ -45,13 +44,45 @@ body{
     align-items: flex-end;
 }
 
-.cruz{
+#cruz-ho{
     display: flex;
     background-color: #D0D0D0;
     border-radius: 5px;
-    width: 200px;
+    bottom: 26%; 
+    width: 100px;
     height:200px;
-    position: relative;
+    position: absolute;
+}
+
+#cruz-h-negra{
+    display: flex;
+    background-color: #111111;
+    border-radius: 5px;
+    bottom: 28%;
+    width: 80px;
+    height:180px;
+    position: absolute;
+}
+
+
+#cruz-ve{
+    display: flex;
+    background-color: #D0D0D0;
+    border-radius: 5px;
+    top: 40%;
+    width: 200px;
+    height:100px;
+    position: absolute;
+}
+
+#cruz-v-negra{
+    display: flex;
+    background-color: #111111;
+    border-radius: 5px;
+    width: 180px;
+    top: 42%;
+    height:80px;
+    position: absolute;
 }
 
 .josti{
