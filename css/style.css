@@ -41,7 +41,23 @@ body{
     /* background-color: rgb(4, 140, 168); */
     display: flex;
     justify-content: center;
+    /* position: relative; */
     align-items: flex-end;
+}
+
+.cruz{
+    display: flex;
+    background-color: #D0D0D0;
+    border-radius: 5px;
+    width: 200px;
+    height:200px;
+    position: relative;
+}
+
+.josti{
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(165, 28, 140); */
 }
 
 .centro-cont{
@@ -65,20 +81,15 @@ body{
     /* background-color: rgb(253, 221, 11); */
 }
 
-.id-cruz{
+/* .id-cruz{
     width: 250px;
     height: 250px;
     background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.josti{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(165, 28, 140);
-}
 
 .medio{
     background-color: rgb(155, 157, 158);
