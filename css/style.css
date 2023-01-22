@@ -8,17 +8,40 @@ body{
     align-items: center;
 }
 
+.cable{
+    width: 20px;
+    height: 100px;
+    background-color: #111111;
+    display: flex;
+    margin-top: 0px;
+    border-radius: 3px;
+    margin-left: 310px;
+}
+
+
 .out-cont{
     width: 900px;
     height: 400px;
     background-color: rgb(222, 226, 226);
-    border-radius: 10px;
+    border-radius: 15px;
     border: outset;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    /* margin-bottom: 20%; */
+    flex-direction: column;
 }
+
+/* .hueco-cable{
+    width: 20px;
+    height: 20px;
+    background-color: #D0D0D0;
+    display: flex;
+    position: relative;
+    margin-top: 0;
+    margin-right: 271px;
+    border-radius: 0px 0px 6px 6px;
+    border: inset 3px;
+} */
 
 .in-cont{
     /* background-color: rgb(36, 35, 35); */
