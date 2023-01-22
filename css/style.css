@@ -103,7 +103,7 @@ body{
     background-color: #111111;
     box-shadow: inset 3px 2px 2px #545252;
     border-radius: 5px;
-    width: 60px;
+    width: 55px;
     height:170px;
     position: relative;
     margin-top: 55px;
@@ -116,7 +116,7 @@ body{
     box-shadow: inset 3px 0px 0px #545252;
     border-radius: 5px;
     width: 170px;
-    height:60px;
+    height: 55px;
     position: absolute; 
     margin-left: 60px;
     margin-top: 50px;
