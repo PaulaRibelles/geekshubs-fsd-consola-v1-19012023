@@ -52,10 +52,7 @@ body{
     background-image: url(../img/textura-rugos-2-peque.jpg);
     border-radius: 5px;
     display: flex;
-    /* transform: translateX(8px); */
-    /* justify-content: center;
-    align-items: center; */
-    /* grid-template-columns: 32% 32% 36% */
+
 }
 
 .cruz-cont{
@@ -64,8 +61,6 @@ body{
     /* background-color: rgb(4, 140, 168); */
     display: grid;
     justify-content: center;
-    /* grid-template-columns: 1fr;
-    grid-template-rows: 1fr; */
     position: relative;
     align-items: center;
 }
@@ -75,7 +70,6 @@ body{
     width: 70px;
     height: 185px;
     border-radius: 5px;
-    /* border: 5px solid #1E0606; */
     display: flex;
     position: absolute;
     justify-content: center;
@@ -89,7 +83,6 @@ body{
     width: 185px;
     height: 70px;
     border-radius: 5px;
-    /* border: 5px solid #1E0606; */
     display: flex;
     position: absolute;
     justify-content: center;
@@ -146,6 +139,7 @@ body{
     margin-bottom: 75px;
 } 
 
+
 #triangulo-left{
     width: 0;
     border-left: 20px solid transparent;
@@ -185,14 +179,6 @@ body{
     width: 200px;
     height: 320px;
     justify-content: space-between;
-    /* padding-top: 0px; */
-    /* padding-bottom: 0px; */
-    /* background-color: rgb(10, 123, 25); */
-    /* display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center; */
-    /* gap: 5px; */
 }
 
 .button-cont{
@@ -230,7 +216,9 @@ body{
     display: flex;
     justify-content: space-around;
     margin: 25px;
-    /* font-family: abstract; */
+    font-family: "Gamer";
+    font-size: 32px;
+    color: #d23b40;
 }
 
 #centro-botones{
@@ -256,6 +244,10 @@ body{
     border-radius: 50px;
     box-shadow: 3px 1px 3px #0003;
     margin: 15px;
+}
+
+.botones-negros:active{
+    background-color: #0c0c0c;
 }
 
 #centro-bajo{
@@ -335,6 +327,7 @@ body{
     justify-items: center;
     justify-content: space-around;
     align-items: center;
+    font-family: "Pretendo";
     font-size: 28px;
     color: #d23b40;
 }
