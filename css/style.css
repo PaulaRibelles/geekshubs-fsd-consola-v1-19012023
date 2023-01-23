@@ -45,7 +45,6 @@ body{
 } */
 
 .in-cont{
-    /* background-color: rgb(36, 35, 35); */
     width: 800px;
     height: 320px;
     color: red;
@@ -58,7 +57,6 @@ body{
 .cruz-cont{
     width: 300px;
     height: 320px;
-    /* background-color: rgb(4, 140, 168); */
     display: grid;
     justify-content: center;
     position: relative;
@@ -184,7 +182,6 @@ body{
 .button-cont{
     width: 300px;
     height: 320px;
-    /* background-color: rgb(253, 221, 11); */
 }
 
 .medio{
@@ -199,7 +196,6 @@ body{
     padding-bottom: 0;
     border-radius: 10px;
     margin-bottom: 5px;
-    /* justify-content: space-between; */
 }
 
 #centro-top{
@@ -230,9 +226,7 @@ body{
     box-shadow: inset 3px 3px 0 #888;
     margin-bottom: 15px;
     display: flex;
-    /* justify-content: space-between; */
     justify-content: space-around;
-    /* align-items: center; */
 }
 
 .botones-negros{
@@ -257,10 +251,6 @@ body{
 }
 
 .button-cont{
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column; */
     display: grid;
     grid-template-rows: 52% 40% 8%;
     flex-direction: column;
@@ -269,22 +259,16 @@ body{
 
 .brand-container{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* transform: translate(-10%, 0); */
-    /* background-color: yellow; */
     margin-top: 20px;
-    /* width: 50%;
-    height: 50%; */
 }
 
 #brand{
     /* font-family: 'pretendo'; */
-    font-size: 24px;
+    font-size: 32px;
     color: #d23b40;
     text-align: center;
-    margin-left: 20px;
-    /* margin-top: 20px; */
+    margin-left: 50px;
 }
 
 .circle-buttons-container{
@@ -321,6 +305,18 @@ body{
 .button-red:active{
     background-color: #a4090e;
 }
+
+/* .reflejo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    background-color: #979696;
+    opacity: 15%;
+    margin-top: 30px;
+    margin-left: 25px;
+} */
 
 .letras-container{
     display: flex;
