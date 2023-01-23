@@ -12,7 +12,6 @@ body{
 .cable{
     width: 20px;
     height: 100px;
-    /* background-color: #111111; */
     background: linear-gradient(to left, black, rgb(70, 70, 70) 50%, black );
     display: flex;
     margin-top: 0px;
@@ -32,17 +31,17 @@ body{
     flex-direction: column;
 }
 
-/* .hueco-cable{
-    width: 20px;
-    height: 20px;
+.hueco-cable{
+    width: 25px;
+    height: 15px;
     background-color: #D0D0D0;
     display: flex;
-    position: relative;
-    margin-top: 0;
-    margin-right: 271px;
+    position: absolute;
+    margin-left: -267px;
+    transform: translateY(-193px);
     border-radius: 0px 0px 6px 6px;
     border: inset 3px;
-} */
+}
 
 .in-cont{
     width: 800px;
@@ -264,7 +263,6 @@ body{
 }
 
 #brand{
-    /* font-family: 'pretendo'; */
     font-size: 32px;
     color: #d23b40;
     text-align: center;
@@ -272,8 +270,6 @@ body{
 }
 
 .circle-buttons-container{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: space-around; 
     align-items: center;
@@ -288,7 +284,6 @@ body{
     margin: 10px;
     background-color: #c8c6c6;
     border: 4px solid #D0D0D0 ;
-    /* border: outset; */
     border-radius: 5px;
     box-shadow: outset 3px 3px 0 #888;
 }
@@ -305,18 +300,6 @@ body{
 .button-red:active{
     background-color: #a4090e;
 }
-
-/* .reflejo{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    display: flex;
-    position: absolute;
-    background-color: #979696;
-    opacity: 15%;
-    margin-top: 30px;
-    margin-left: 25px;
-} */
 
 .letras-container{
     display: flex;
